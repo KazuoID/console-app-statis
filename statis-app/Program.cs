@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace statis
 {
@@ -14,16 +14,17 @@ namespace statis
             e = a * b;
             f = a / b;
 
-            double g, h;
+            double g, h, i;
             g = Convert.ToDouble(10);
             h = Math.Sqrt(g);
+            i = Math.Pow(g, 2);
 
-            Console.WriteLine(c);
-            Console.WriteLine(d);
-            Console.WriteLine(e);
-            Console.WriteLine(f);
-            Console.WriteLine(h);
+            Console.WriteLine(c); //tambah (+)
+            Console.WriteLine(d); //kurang (-)
+            Console.WriteLine(e); //kali (*)
+            Console.WriteLine(f); //bagi (/)
+            Console.WriteLine(h); //akar
+            Console.WriteLine(i); //pangkat
         }
     }
 }
-
