@@ -1,2 +1,2 @@
 # console-app-statis
-![code]()
+![code](./img/image.png)
